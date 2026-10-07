@@ -1,0 +1,11 @@
+{
+  "scope": "PASS",
+  "manifestInventory": "PASS",
+  "artifactFileCount": 50,
+  "artifactBytesBeforeThisRecord": 2534624,
+  "existingHistoryBundleBytes": 117469,
+  "conservativeSubmissionBoundBytes": 3700669,
+  "limitBytes": 8388608,
+  "gitCommit": "Unavailable: .git/index.lock cannot be created on a read-only filesystem. Files remain in the working tree for collection.",
+  "method": "Existing HEAD full bundle plus all uncompressed deliverable bytes and 1 MiB for Git metadata/record overhead; this is a conservative bound, not the size of a committed final bundle."
+}

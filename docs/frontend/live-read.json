@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-07T05:53:04.531Z",
+  "readOnly": true,
+  "endpoints": [
+    {
+      "url": "https://robinhood-rpc.publicnode.com",
+      "chainId": 4663,
+      "matches": true
+    },
+    {
+      "url": "https://rpc.mainnet.chain.robinhood.com",
+      "chainId": 4663,
+      "matches": true
+    }
+  ],
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0x47feef4635eea79e95421f77437f0c19ee36ee9e",
+      "bytes": 1784,
+      "codeHash": "0xc857e307f4fe157243ecff56a07bdba7b48178b1a01428ef2309e87e88cfc532"
+    },
+    {
+      "name": "MossExperimentRegistry",
+      "address": "0x30100214ce4818e076807c31763afabef827ee30",
+      "bytes": 2844,
+      "codeHash": "0x3c67699e464387abf5cecc20196f4d09bbd5c4b8ec3a565c1b77ffb323aa4c29"
+    }
+  ],
+  "infrastructure": [
+    {
+      "name": "poolManager",
+      "address": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+      "bytes": 24009
+    },
+    {
+      "name": "quoter",
+      "address": "0x8dc178efb8111bb0973dd9d722ebeff267c98f94",
+      "bytes": 6118
+    },
+    {
+      "name": "stateView",
+      "address": "0xf3334192d15450cdd385c8b70e03f9a6bd9e673b",
+      "bytes": 3531
+    },
+    {
+      "name": "universalRouter",
+      "address": "0x8876789976decbfcbbbe364623c63652db8c0904",
+      "bytes": 24546
+    },
+    {
+      "name": "positionManager",
+      "address": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+      "bytes": 23877
+    },
+    {
+      "name": "initializationGuard",
+      "address": "0x19bec7c2e1b2aadaf67b259744751a9960d66000",
+      "bytes": 488
+    },
+    {
+      "name": "permit2",
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "bytes": 9152
+    }
+  ],
+  "state": {
+    "symbol": "Moss",
+    "decimals": 18,
+    "totalSupply": "1000000000000000000000000000",
+    "owner": "0x6D6ee66cA3678096CEae7C7737117B366337bDbe",
+    "token": "0x47fEEf4635eeA79E95421f77437F0c19Ee36ee9E",
+    "proposalCount": "0",
+    "poolId": "0x8a2f8ace2e23391e035a6c974224815f7eafe99fc24bfdd85e16950dd622b432",
+    "slot0": [
+      "792281625142643375935439503360000",
+      184216,
+      0,
+      12500
+    ],
+    "liquidity": "0",
+    "readOnlyQuote": {
+      "inputWei": "1000000000000000",
+      "outputMinorUnits": "98581161212609396633789",
+      "gasEstimate": "87452"
+    }
+  },
+  "errors": [],
+  "block": "82241832",
+  "status": "PASS"
+}

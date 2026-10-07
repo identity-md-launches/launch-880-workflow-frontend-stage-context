@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-07T05:58:05.573Z",
+  "browser": "153.0.8010.12",
+  "productionSubpath": "/preview/",
+  "checks": [
+    "Missing wallet gives recovery instructions; writes remain gated",
+    "Measured rendered text and action contrast pairs exceed 4.5:1",
+    "Keyboard entry has a visible skip link",
+    "Wrong-chain state blocks trading",
+    "Unknown chain invokes add-chain with the exact network table, then switches",
+    "Keyboard traverses amount, slippage and quote controls and submits validation",
+    "Invalid swap amount is rejected before a wallet request",
+    "Editing slippage invalidates the previous quote before a new review",
+    "Router simulation failure is shown and never reaches wallet submission",
+    "Wallet rejection clears pending state and allows retry",
+    "Double submission is blocked until receipt confirmation",
+    "Native buy uses attested router and sends exact input value",
+    "ERC20 sell confirms exact token and Permit2 approvals as separate steps before swap",
+    "Empty registry has a useful next action",
+    "Public proposal stores the exact journal hash and refreshes the catalog",
+    "Owner can approve a pending proposal with its observed active ID",
+    "Owner can retire an active endorsement",
+    "Owner can reject a pending proposal",
+    "Non-owner decisions are visibly gated",
+    "Bounded event history reports an honest empty range",
+    "Token transfer requires review and submits the exact recipient/amount",
+    "Allowance read and explicit zero revocation work",
+    "Delegated transfer exposes owner, recipient and amount controls",
+    "Desktop, 800px, 390px and 320px layouts fit without horizontal overflow",
+    "Full addresses and 18-decimal amounts fit the 320px token form",
+    "Reduced-motion preference removes button transitions",
+    "Missing deployed code disables transaction controls",
+    "ABI tampering fails closed before the application loads",
+    "No browser JavaScript errors during the tested interaction flows"
+  ],
+  "screenshots": [
+    "desktop-trade.png",
+    "keyboard-focus.png",
+    "desktop-registry.png",
+    "mobile-trade.png",
+    "mobile-registry-320.png",
+    "mobile-tools-320.png",
+    "live-home.png"
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "state": "desktop disconnected",
+      "violations": []
+    },
+    {
+      "state": "token tools",
+      "violations": []
+    },
+    {
+      "state": "populated registry",
+      "violations": []
+    },
+    {
+      "state": "trade 800px",
+      "violations": []
+    },
+    {
+      "state": "trade 390px",
+      "violations": []
+    },
+    {
+      "state": "trade 320px",
+      "violations": []
+    },
+    {
+      "state": "token form 320px",
+      "violations": []
+    }
+  ],
+  "viewports": [
+    {
+      "width": 800,
+      "scroll": 800
+    },
+    {
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "width": 320,
+      "scroll": 320
+    }
+  ],
+  "contrast": [
+    {
+      "selector": ".hero-copy > p",
+      "foreground": "rgb(96, 105, 88)",
+      "background": "rgb(246, 245, 238)",
+      "ratio": 5.251334958696403,
+      "fontSize": "14.72px"
+    },
+    {
+      "selector": ".primary",
+      "foreground": "rgb(247, 247, 237)",
+      "background": "rgb(53, 78, 49)",
+      "ratio": 8.52424830504823,
+      "fontSize": "14px"
+    },
+    {
+      "selector": ".eyebrow",
+      "foreground": "rgb(96, 105, 88)",
+      "background": "rgb(246, 245, 238)",
+      "ratio": 5.251334958696403,
+      "fontSize": "10.88px"
+    },
+    {
+      "selector": ".amount-row output",
+      "foreground": "rgb(96, 105, 88)",
+      "background": "rgb(243, 243, 235)",
+      "ratio": 5.146567927032055,
+      "fontSize": "35.2px"
+    },
+    {
+      "selector": ".slippage",
+      "foreground": "rgb(39, 56, 43)",
+      "background": "rgb(255, 254, 248)",
+      "ratio": 12.321520564613781,
+      "fontSize": "12.8px"
+    },
+    {
+      "selector": ".caption",
+      "foreground": "rgb(96, 105, 88)",
+      "background": "rgb(255, 254, 248)",
+      "ratio": 5.68043816564826,
+      "fontSize": "10.56px"
+    }
+  ],
+  "liveBrowser": {
+    "status": "PASS",
+    "networkLine": "Robinhood Chain\nMAINNET\nSynced · block 82,244,929",
+    "consoleErrors": []
+  },
+  "result": "PASS",
+  "transactionCount": 12,
+  "transactions": [
+    {
+      "to": "0x8876789976decbfcbbbe364623c63652db8c0904",
+      "functionName": "execute",
+      "args": [
+        "0x10",
+        [
+          "0x000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000003060c0f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000001800000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000047feef4635eea79e95421f77437f0c19ee36ee9e00000000000000000000000000000000000000000000000000000000000030d4000000000000000000000000000000000000000000000000000000000000003c00000000000000000000000019bec7c2e1b2aadaf67b259744751a9960d660000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000002386f26fc1000000000000000000000000000000000000000000000000000112c7bb1858bc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002386f26fc10000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000047feef4635eea79e95421f77437f0c19ee36ee9e00000000000000000000000000000000000000000000000112c7bb1858bc0000"
+        ],
+        "1791353287"
+      ],
+      "value": "0x2386f26fc10000"
+    },
+    {
+      "to": "0x47feef4635eea79e95421f77437f0c19ee36ee9e",
+      "functionName": "approve",
+      "args": [
+        "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "1000000000000000000"
+      ]
+    },
+    {
+      "to": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "functionName": "approve",
+      "args": [
+        "0x47fEEf4635eeA79E95421f77437F0c19Ee36ee9E",
+        "0x8876789976dEcBfCbBbe364623C63652db8C0904",
+        "1000000000000000000",
+        1791354489
+      ]
+    },
+    {
+      "to": "0x8876789976decbfcbbbe364623c63652db8c0904",
+      "functionName": "execute",
+      "args": [
+        "0x10",
+        [
+          "0x000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000003060c0f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000001800000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000047feef4635eea79e95421f77437f0c19ee36ee9e00000000000000000000000000000000000000000000000000000000000030d4000000000000000000000000000000000000000000000000000000000000003c00000000000000000000000019bec7c2e1b2aadaf67b259744751a9960d6600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000de0b6b3a76400000000000000000000000000000000000000000000000000000001c2332b29f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000047feef4635eea79e95421f77437f0c19ee36ee9e0000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001c2332b29f000"
+        ],
+        "1791353290"
+      ],
+      "value": "0x0"
+    },
+    {
+      "to": "0x30100214ce4818e076807c31763afabef827ee30",
+      "functionName": "propose",
+      "args": [
+        "0x290f5a2bffaf5ab8f8343f3c8965497482f9e97ac3688ff842d4b15e159fa016",
+        "0x3333333333333333333333333333333333333333",
+        "0x1ceb33f27a1ab5f34716d8e937fb582ab7e6fec7ffb9576858a6063092d7094f"
+      ]
+    },
+    {
+      "to": "0x30100214ce4818e076807c31763afabef827ee30",
+      "functionName": "approve",
+      "args": [
+        "1",
+        "0",
+        "0x9d3894a34dc4062f5eacc267988bef42ccb2f9865709c57f6b95f789608c2746"
+      ]
+    },
+    {
+      "to": "0x30100214ce4818e076807c31763afabef827ee30",
+      "functionName": "retire",
+      "args": [
+        "0x290f5a2bffaf5ab8f8343f3c8965497482f9e97ac3688ff842d4b15e159fa016",
+        "1",
+        "0x9d3894a34dc4062f5eacc267988bef42ccb2f9865709c57f6b95f789608c2746"
+      ]
+    },
+    {
+      "to": "0x30100214ce4818e076807c31763afabef827ee30",
+      "functionName": "propose",
+      "args": [
+        "0x290f5a2bffaf5ab8f8343f3c8965497482f9e97ac3688ff842d4b15e159fa016",
+        "0x3333333333333333333333333333333333333333",
+        "0x1ceb33f27a1ab5f34716d8e937fb582ab7e6fec7ffb9576858a6063092d7094f"
+      ]
+    },
+    {
+      "to": "0x30100214ce4818e076807c31763afabef827ee30",
+      "functionName": "reject",
+      "args": [
+        "2",
+        "0x9d3894a34dc4062f5eacc267988bef42ccb2f9865709c57f6b95f789608c2746"
+      ]
+    },
+    {
+      "to": "0x47feef4635eea79e95421f77437f0c19ee36ee9e",
+      "functionName": "transfer",
+      "args": [
+        "0x1111111111111111111111111111111111111111",
+        "2000000000000000000"
+      ]
+    },
+    {
+      "to": "0x47feef4635eea79e95421f77437f0c19ee36ee9e",
+      "functionName": "approve",
+      "args": [
+        "0x1111111111111111111111111111111111111111",
+        "0"
+      ]
+    },
+    {
+      "to": "0x47feef4635eea79e95421f77437f0c19ee36ee9e",
+      "functionName": "transferFrom",
+      "args": [
+        "0x1111111111111111111111111111111111111111",
+        "0x3333333333333333333333333333333333333333",
+        "1000000000000000000"
+      ]
+    }
+  ]
+}

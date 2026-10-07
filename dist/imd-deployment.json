@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "launchId": "409e0b40-186f-4dd2-8eca-c173d29cf19e",
+  "chainId": 4663,
+  "sourceCommit": "171fbcdaca959d6b9ec7d719579e2e1a157841ff",
+  "attestationHash": "5faf5626dc3bc70502f2a008633bac004481761e8509d4f77c94428e2dd5b82e",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0x47feef4635eea79e95421f77437f0c19ee36ee9e",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "abiPath": "abi/LaunchToken.json"
+    },
+    {
+      "name": "MossExperimentRegistry",
+      "address": "0x30100214ce4818e076807c31763afabef827ee30",
+      "abiHash": "b102064344d1de9c5f36e3f34450d95a933bc71efef9ea6fb6abf184d0a95d4c",
+      "abiPath": "abi/MossExperimentRegistry.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "abi/MossExperimentRegistry.json",
+      "sha256": "62fb2385dc1a3cfc7b9e5a42174f0958792ff74a216ed3afe0d06284481d3cd9"
+    },
+    {
+      "path": "assets/ccip-Dc-BKekW.js",
+      "sha256": "e07125c86e603804fcbafb184ca2768cd3e50d93ba1f5a2aa1862790b6d1f5c0"
+    },
+    {
+      "path": "assets/index-CL4x4T8v.js",
+      "sha256": "127506d3841b4892e13e1c0e3488711ab182e40bbbbdc38cd772581551bc9a5d"
+    },
+    {
+      "path": "assets/index-Dt7P4xhY.css",
+      "sha256": "c9218d3972c75313db435919d56befc469b153fe43451a9ad9df25f32aecd48b"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d8346a7f7ff0928650a8027710205245d598a56bf9f5697dcfc7a3e8fd2b942e"
+    },
+    {
+      "path": "moss.svg",
+      "sha256": "9bc722f13be5019fdbc33e1523540f53d6d9d1fe2a919df5c76b0650800c7251"
+    }
+  ],
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x19bec7c2e1b2aadaf67b259744751a9960d66000",
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0x47feef4635eea79e95421f77437f0c19ee36ee9e",
+    "tickSpacing": 60
+  },
+  "network": {
+    "chainId": 4663,
+    "name": "Robinhood Chain",
+    "testnet": false,
+    "rpcUrls": [
+      "https://robinhood-rpc.publicnode.com",
+      "https://rpc.mainnet.chain.robinhood.com"
+    ],
+    "explorer": "https://robin.etherscan.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+      "universalRouter": "0x8876789976decbfcbbbe364623c63652db8c0904",
+      "quoter": "0x8dc178efb8111bb0973dd9d722ebeff267c98f94",
+      "stateView": "0xf3334192d15450cdd385c8b70e03f9a6bd9e673b",
+      "positionManager": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "extendedSwapParams": true
+    },
+    "pairToken": {
+      "address": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0x1237",
+    "chainName": "Robinhood Chain",
+    "rpcUrls": [
+      "https://robinhood-rpc.publicnode.com",
+      "https://rpc.mainnet.chain.robinhood.com"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://robin.etherscan.io"
+    ]
+  }
+}
